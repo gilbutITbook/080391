@@ -1,0 +1,5 @@
+package ch7.v1;
+
+public enum Badge {
+    SECURITY_COP, FIVE_TRAININGS, TEN_TRAININGS, ON_FIRE, QUALITY_HERO
+}
