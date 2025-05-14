@@ -6,17 +6,17 @@
 
 # 2장 - src/main/java/ch2/*
 
-- ch2.v1 - `ImportEmployeesService` 초기 버전
-- ch2.v2 - `ImportEmployeesService` 리팩토링 버전
-- ch2.v3 - `UpdatedOffering`을 받아서 변경 내용 통지 결정하는 `update` 메서드 초기 버전(`OfferingUpdateService` 클래스를 볼것)
-- ch2.v4 - `UpdatedOffering`을 받아서 변경 내용 통지 결정하는 `update` 메서드 리팩토링 버전(`OfferingUpdateService` 클래스를 볼것)
-- ch2.v5 - `UnenrollEmployeeFromOfferingService` 초기 버전
-- ch2.v6 - `UnenrollEmployeeFromOfferingService` 리팩토링 버전
+- ch2.v1 - `ImportEmployeesService` 초기 버전(코드 2-1)
+- ch2.v2 - `ImportEmployeesService` 리팩토링 버전(코드 2-2, 코드 2-3)
+- ch2.v3 - `UpdatedOffering`을 받아서 변경 내용 통지 결정하는 `update` 메서드 초기 버전(`OfferingUpdateService` 클래스를 볼것, 코드 2-4)
+- ch2.v4 - `UpdatedOffering`을 받아서 변경 내용 통지 결정하는 `update` 메서드 리팩토링 버전(`OfferingUpdateService` 클래스를 볼것, 코드 2-5)
+- ch2.v5 - `UnenrollEmployeeFromOfferingService` 초기 버전(코드 2-6)
+- ch2.v6 - `UnenrollEmployeeFromOfferingService` 리팩토링 버전(코드 2-7)
 
 # 3장 - src/main/java/ch3/*
 
-- ch3.v1 - `Offering` 초기 버전
-- ch3.v2 - `Offering` 리팩토링, `AddEmployeeToOfferingService`와 `AddEmployeeToOfferingValidator` 추가 및 변경 (3.4절까지 적용)
+- ch3.v1 - `Offering` 초기 버전(코드 3-1, 코드 3-2)
+- ch3.v2 - `Offering` 리팩토링, `AddEmployeeToOfferingService`와 `AddEmployeeToOfferingValidator` 추가 및 변경(3.4절까지 적용)
 - ch3.v3 - `Enrollment` 도입, `Offering` 리팩토링(애그리게이트 루트)
 
 

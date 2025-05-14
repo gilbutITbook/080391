@@ -72,27 +72,9 @@ public class CsvParserLibrary {
     private Class<?> objectType = Object.class;
 }
 
-class EmployeeParsedData {
-    private String name;
-    private String email;
-    private String startingDate;
-    private String role;
-
-    public EmployeeParsedData() {}
-
-    public String getName() {
-        return name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getStartingDate() {
-        return startingDate;
-    }
-
-    public String getRole() {
-        return role;
-    }
-}
+record EmployeeParsedData(
+        String name,
+        String email,
+        LocalDate startingDate,
+        String role
+) { }
